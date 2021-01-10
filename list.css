@@ -1,0 +1,148 @@
+body{
+	background-image: linear-gradient(90deg,lightblue,lightgreen);
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#container{
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: white;
+	margin-left: 45px;
+	margin-right: 35px;
+	border-radius: 9px;
+	border:2px solid black;
+}
+
+#main{
+	position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    background-color: lightgrey;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 450px; 
+    display: block;
+    border-radius: 10px;
+    left: auto;
+    overflow: hidden;
+}
+
+#add-task{
+
+	width: 380px;
+	height: 50px;
+	padding-left: 10px;
+	border:1px solid grey;
+	background-color: lightgrey;
+	border-radius: 10px;
+	margin-top:20px;
+	margin-left: 20px;
+	margin-right: 17px;
+	display: flex;
+	font-size: 30px;
+	overflow: hidden;
+}
+
+#addItem{
+  margin-left: 420px;
+  margin-top:-47px;
+  height: 40px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 13px;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  background-color:yellow;
+}
+
+#paraId{
+    margin-top: 15px;
+	  margin-left: 30px;
+}
+
+#paraId1{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 400px;
+    margin-top: -38px
+}
+
+#list li
+{
+    list-style: circle;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: -20px;
+    padding: 15px;
+}
+ul li:hover
+{
+    display: block;
+    
+}
+ul li:hover .btn
+{
+    display: block;
+}
+.btn
+{
+   display: none;
+}
+.btn:hover
+{
+    background-color: green;
+}
+.btn
+{
+    border:2px solid black;
+    border-radius: 50%;
+    color:black;
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.align
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -20px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#completed{
+	margin-left: 300px;
+}
+
+#completed a{
+    text-decoration: none; 
+    color: black;
+}
+
+#completed a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+#finale{
+   margin-top: 600px;
+   margin-left: 36px;
+}
